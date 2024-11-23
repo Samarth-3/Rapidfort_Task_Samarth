@@ -2,9 +2,10 @@
   "name": "rapidfort",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage":"https://rapid-fort-hosting-1fefaw6ud-samarths-projects-1f0c59dc.vercel.app/" ,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon backend/index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,11 +16,11 @@
   "bugs": {
     "url": "https://github.com/Samarth-3/Rapidfort-Task/issues"
   },
-  "homepage": "https://github.com/Samarth-3/Rapidfort-Task#readme",
   "description": "",
   "dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.21.1",
     "libreoffice": "^0.4.5",

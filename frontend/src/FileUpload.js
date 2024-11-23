@@ -25,7 +25,7 @@ function FileUpload() {
 
     try {
       const response = await axios.post(
-        "http://localhost:8080/docxtopdfdemo",
+        "/api/docxtopdfdemo",
         formData,
         { responseType: "blob" } // Ensures the response is treated as a file
       );
