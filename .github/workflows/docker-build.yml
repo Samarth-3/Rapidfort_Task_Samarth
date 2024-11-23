@@ -48,7 +48,7 @@ jobs:
       with:
         # Change the context to the root directory
         context: .
-        file: ./Backend/Dockerfile
+        file: ./backend/Dockerfile
         push: true
         tags: |
           ghcr.io/${{ env.OWNER_LC }}/docx-converter-backend:latest
